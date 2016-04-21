@@ -1,0 +1,42 @@
+#header{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 4px;
+}
+
+#header {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#nutrition{
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 4px;
+}
+
+#menus{
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 4px;
+}
+
+#recipes{
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 4px;
+}

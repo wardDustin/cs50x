@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>LunchCode</h1>
+            <h4>Find out what's cooking at Harvard by interacting with CS50's Food API</h4>
+        </div>
+        <div class="form-container">
+            <div id="nutrition">
+                <h3>Nutrition Facts</h3>
+                <form action="http://api.cs50.net/food/3/facts" method="GET">
+                    <label>recipe:</label>
+                    <input type="text" name="recipe"/>
+                    <label>portion:</label>
+                    <input type="number" name="portion"/>
+                    <input type="hidden" name="key" value="65d92490c5845d1ffef0ab3ae0904e71"/>
+                    <input type="hidden" name="output" value="json"/>
+                    <input type="submit" value="SEND REQUEST"/>
+                </form>
+            </div>
+            <div id="menus">
+                <h3>Menus</h3>
+                <form action="http://api.cs50.net/food/3/menus" method="GET">
+                    <label>meal:</label>
+                    <input type="text" name="meal" />
+                    <input type="hidden" name="key" value="65d92490c5845d1ffef0ab3ae0904e71"/>
+                    <input type="hidden" name="output" value="json"/>
+                    <input type="submit" value="SEND REQUEST"/>
+                </form>
+            </div>
+            <div id="recipes">
+                <h3>Recipes</h3>
+                <form action="http://api.cs50.net/food/3/recipes" method="GET">
+                    <label>id:</label>
+                    <input type="text" name="id"/>
+                    <input type="hidden" name="key" value="65d92490c5845d1ffef0ab3ae0904e71"/>
+                    <input type="hidden" name="output" value="json"/>
+                    <input type="submit" value="SEND REQUEST"/>
+                </form>
+                <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a>
+            </div>
+        </div>
+    </body>
+</html>

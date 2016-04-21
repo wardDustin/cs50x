@@ -1,0 +1,4 @@
+1. http://api.cs50.net/food/3/menus?key=65d92490c5845d1ffef0ab3ae0904e71&meal=BREAKFAST&sdt=2016-03-21&output=json
+2. http://api.cs50.net/food/3/facts?key=65d92490c5845d1ffef0ab3ae0904e71&recipe=510036&portion=5&output=json
+3a. http://api.cs50.net/food/3/recipes?key=65d92490c5845d1ffef0ab3ae0904e71&id=510036&output=json
+3b. http://api.cs50.net/food/3/recipes?key=65d92490c5845d1ffef0ab3ae0904e71&id=510036&output=xml
