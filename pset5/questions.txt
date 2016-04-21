@@ -1,0 +1,14 @@
+0.  An english word that is a type of lung cancer called silicosis and is currently the longest english word in the dictionary
+1.  Returns resource useage statistics for a calling process
+2.  16, but only 9 are maintained
+3.  Because we want to see the value at a certain point in the runtime, instead of just at the end
+4.  The for loop runs while the fgetc function does not equal the end of the file. While it is running, fgetc grabs a char from the first line and iterates by grabbing one char at a time. It then
+inserts that char into an array[index] and adds one to the variable index. The loop checks many things, such as: if index is bigger than 45 (if so it ignores it by going through the rest of the
+word and then resetting index to zero), if the char is an alphabetical char, if the word has a digit in it (and promptly ignores that, too). When the loop comes to a "\n", the program knows it has
+come to the end of a word, updates the word counter, checks for misspellings and then reports the time lapsed by all the processes
+5.  Words longer than the defined LENGTH and words with digits could get passed using fscanf
+6.  Because the dictionary and the word that is checked for spelling do not and should not change
+7.  TODO
+8.  TODO
+9.  TODO
+10. TODO
