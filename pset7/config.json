@@ -2,7 +2,7 @@
     "database": {
         "host": "localhost",
         "name": "pset7",
-        "username": "drawnitsud",
-        "password": "v1kCjsvLYytrBTGV"
+        "username": "username",
+        "password": "password"
     }
 }
