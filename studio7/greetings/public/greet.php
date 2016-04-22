@@ -35,9 +35,7 @@ if ($custom_greeting!==''){
 // This checks the database for num_times but it returns an array we can't use yet
 $new_num_times = CS50::query("SELECT num_times FROM greetings WHERE text = '{$greeting_text}'");
 // array_pop gets us the part of the array we need (num_times)
-$new_num_times = array_pop($new_num_times);//["num_times"];
-
-var_dump($new_num_times);
+$new_num_times = array_pop($new_num_times)["num_times"];
 // starts new_num_times at one and subsequently adds one each time the same $greeting_text is called
 ++$new_num_times;
 // sends the updated $new_num_times back into the database
